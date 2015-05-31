@@ -5,7 +5,7 @@ Tumcca web project.
 > How to Install it
 
 ```
-$ git clone https://git.oschina.net/fancn21th/tumcca-web.git
+$ git clone https://github.com/ideaalloc/tumcca-web.git
 $ cd tumcca-web
 $ bower install
 ```
