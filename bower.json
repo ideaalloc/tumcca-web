@@ -1,0 +1,18 @@
+{
+  "name": "tumcca-web",
+  "version": "0.0.1-SNAPSHOT",
+  "homepage": "https://git.oschina.net/fancn21th/tumcca-web.git",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "latest",
+    "jquery": "latest",
+    "bootstrap": "latest"
+  }
+}
