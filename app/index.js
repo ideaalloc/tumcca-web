@@ -11,7 +11,9 @@ var PhotoBox = React.createClass({
         this.setState({data: data});
       }.bind(this),
       error: function (xhr, status, err) {
-        console.error(status);
+        var error = $.parseJSON(xhr.responseText);
+        var message = error.code + ': ' + error.message;
+        alert(message);
       }.bind(this),
       complete: function (xhr) {
       }.bind(this)
